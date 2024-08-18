@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 export default function Chat() {
     const [menuItems, setMenuItems] = useState([
-        { id: '1', text: 'Gabriel Alves ' },
+        { id: '1', text: 'Gabriel Alves Lopes' },
         { id: '2', text: 'Luiz Eduardo Lima' },
         { id: '3', text: 'Marcos Andrade Costa' },
         { id: '4', text: 'Leticia Alves Lopes' },
