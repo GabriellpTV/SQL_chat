@@ -28,8 +28,6 @@ export default function Signup() {
         }
         try {
             const data = await cadastrarUsuario(user_name, user_email, user_password);
-            const text = "Cadastrado com Sucesso";
-            const type = "success";
             navigate("/");
         } catch (err) {
             let errorMessage = 'Erro ao conectar com a API';

@@ -27,8 +27,6 @@ export default function Signin() {
         }
         try {
             const data = await buscarUsuario(user_email, user_password);
-            const text = "Login realizado com sucesso";
-            const type = "success";
             navigate("/");
         } catch (err) {
             let errorMessage = 'Erro ao conectar com a API';

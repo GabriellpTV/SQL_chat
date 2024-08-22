@@ -79,7 +79,7 @@ export const AuthProvider = ({ children }) => {
                 }
             }).catch(() => logout());
         }
-    }, []);
+    }, [user]);
 
     return (
         <AuthContext.Provider
